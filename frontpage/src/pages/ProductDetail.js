@@ -23,7 +23,7 @@ export default function ProductDetail ({cartItems,setcartItems}){
             if (!itemExist){
                 const newItem = {product,qty};
                 setcartItems((state) => [...state,newItem]);
-                toast.success("Cart Item Added Successfully...") 
+                toast.success("Cart Item Added Successfully...!") 
             }
            
         }
